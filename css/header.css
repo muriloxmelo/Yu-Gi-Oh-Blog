@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.header nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.svg-navegacao {
+  color: #fff;
+}
+
+.svg-navegacao:hover {
+  color: #EE1133;
+}

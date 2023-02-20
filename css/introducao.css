@@ -1,0 +1,25 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.introducao-p1 {
+  align-self: end;
+}
+
+.introducao-p1 h1 {
+  margin-bottom: 2rem;
+}
+
+.introducao-p1 p {
+  margin-bottom: 2rem;
+}
+
+.introducao-p1 .btn:first-of-type {
+  margin-right: 2rem;
+}
+
+.introducao-p1 .btn {
+  margin-bottom: 4rem;
+}
