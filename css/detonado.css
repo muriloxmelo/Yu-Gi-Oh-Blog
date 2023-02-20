@@ -1,0 +1,41 @@
+.detonado {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.detonado-bg {
+  background-color: #f7f9ff;
+}
+
+.detonado-content {
+  display: grid;
+  padding: 1rem 1rem;
+  background-color: #1b1d20;
+  border-radius: 10px;
+  position: relative;
+}
+
+.detonado-content p {
+  margin-bottom: 1rem;
+  margin-top: 82px;
+}
+
+.detonado-content img {
+  margin-bottom: 2rem;
+}
+
+.detonado-content .btn {
+  place-self: center center;
+}
+
+.detonado-parte {
+  text-transform: uppercase;
+  grid-area: 1/1;
+  display: inline-block;
+  padding: 8px;
+  background: linear-gradient(180deg, #ee1133 0%, #cc0e2b 100%);
+  position: absolute;
+  left: -16px;
+  border-radius: 0px 10px 10px 0px;
+}

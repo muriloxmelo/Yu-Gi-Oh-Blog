@@ -1,0 +1,14 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.sobre img {
+  filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.1));
+  border-radius: 10px;
+}
+
+.sobre-bg {
+  background-color: #f7f9ff;
+}
