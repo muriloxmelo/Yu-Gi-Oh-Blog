@@ -20,7 +20,7 @@
 
 .personagens-icon img:hover {
   border: 8px solid;
-  border-image: url(/imgs/trem.png) 10 10 round;
+  border-image: url(./imgs/trem.png) 10 10 round;
   cursor: pointer;
 }
 
