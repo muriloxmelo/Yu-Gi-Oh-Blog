@@ -1,7 +1,8 @@
 .detonado {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
+  gap: 2.5rem;
+  padding-bottom: 5rem;
 }
 
 .detonado-bg {

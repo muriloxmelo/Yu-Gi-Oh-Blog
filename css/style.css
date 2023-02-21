@@ -5,6 +5,7 @@
 @import "./introducao.css";
 @import "./sobre.css";
 @import "./detonado.css";
+@import "./personagens.css";
 
 * {
   margin: 0;
@@ -52,9 +53,4 @@ a {
 
 body {
   background-color: #1e1e1e;
-}
-
-h2 {
-  padding-top: 7.5rem;
-  padding-bottom: 32px;
 }
