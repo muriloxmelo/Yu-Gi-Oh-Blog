@@ -48,13 +48,13 @@
   display: flex;
   align-items: center;
   filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, 0.2));
-  margin-bottom: 1rem;
+  margin-bottom: 8px;
 }
 
 .deck p {
   background: #b67a45;
-  border-radius: 0px 10px 10px 0px;
-  padding: 4px;
+  border-radius: 0px 5px 5px 0px;
+  padding: 0 4px;
 }
 
 .alinhado {
