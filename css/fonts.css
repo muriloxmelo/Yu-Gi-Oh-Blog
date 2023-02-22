@@ -16,7 +16,7 @@
   font-family: "Outfit";
   font-weight: 400;
   font-size: 1.25rem;
-  line-height: 1.5rem;
+  line-height: 1.875rem;
 }
 
 .f-s {
@@ -31,15 +31,31 @@
 }
 
 .f-perso-perfil {
-  font-family: 'Outfit';
-font-weight: 700;
-font-size: 2rem;
-line-height: 1.75rem;
-letter-spacing: 0.015em;
-text-transform: uppercase;
-background-color: #34280A;
-border-radius: 10px;
-padding: 8px;
-display: inline-block;
-margin-bottom: 1rem;
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  background-color: #34280a;
+  border-radius: 10px;
+  padding: 8px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .f-xxl {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+  
+}
+
+@media (max-width: 800px) {
+  .f-xl {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+
+  }
 }

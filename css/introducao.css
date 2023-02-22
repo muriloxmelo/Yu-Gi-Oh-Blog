@@ -16,10 +16,36 @@
   margin-bottom: 2rem;
 }
 
-.introducao-p1 .btn:first-of-type {
-  margin-right: 2rem;
+.botoes-div {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-bottom: 4rem;
 }
 
 .introducao-p1 .btn {
-  margin-bottom: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 88px;
+  }
+  .introducao > div img {
+    display: none;
+  }
+  .botoes-div {
+    align-self: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .botoes-div {
+    gap: 1rem;
+  }
 }
