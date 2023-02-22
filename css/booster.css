@@ -18,7 +18,7 @@
 }
 
 .cartas-lista img:hover,
-.ativo-carta {
+.cartas-lista .ativo {
   --b: 2px; /* thickness of the border */
   --c: #ffbd06; /* color of the border */
   --w: 10px; /* width of border */
@@ -39,9 +39,14 @@
       100% 100% / var(--_p);
 }
 
-.cartas-descricao {
+.cartas-descricao div {
   background: #fef8d2;
   padding: 2rem;
   border-radius: 10px;
   border: 5px solid #8b661d;
+  display: none;
+}
+
+.cartas-descricao div.ativo {
+  display: block;
 }
