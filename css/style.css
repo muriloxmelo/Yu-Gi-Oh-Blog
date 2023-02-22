@@ -28,6 +28,12 @@
   border-radius: 6.25rem;
 }
 
+.btn:hover {
+  opacity: 80%;
+  transition: 0.5s;
+
+}
+
 .container {
   max-width: 1200px;
   margin-right: auto;

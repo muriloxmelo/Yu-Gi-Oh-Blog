@@ -44,9 +44,12 @@
   padding: 2rem;
   border-radius: 10px;
   border: 5px solid #8b661d;
+}
+
+.js .cartas-descricao div {
   display: none;
 }
 
-.cartas-descricao div.ativo {
+.js .cartas-descricao div.ativo {
   display: block;
 }
