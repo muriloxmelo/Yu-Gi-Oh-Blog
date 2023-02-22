@@ -7,6 +7,7 @@
 @import "./detonado.css";
 @import "./personagens.css";
 @import "./booster.css";
+@import "./footer.css";
 
 * {
   margin: 0;
@@ -74,4 +75,8 @@ body {
 
 .pdbtm-60 {
   padding-bottom: 3.75rem;
+}
+
+.pdbtm-120 {
+  padding-bottom: 7.5rem;
 }
