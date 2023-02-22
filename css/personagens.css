@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+.personagens-icon .ativo {
+  border-image: url(../imgs/trem.png) 10 10 round;
+}
+
 .personagens-perfil {
   background-color: #1b1d20;
   border: 2px solid #d9bb7e;

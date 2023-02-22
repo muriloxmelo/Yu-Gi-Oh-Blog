@@ -6,6 +6,7 @@
 @import "./sobre.css";
 @import "./detonado.css";
 @import "./personagens.css";
+@import "./booster.css";
 
 * {
   margin: 0;
@@ -53,4 +54,24 @@ a {
 
 body {
   background-color: #1e1e1e;
+}
+
+.pdtop-80 {
+  padding-top: 5rem;
+}
+
+.pdbtm-32 {
+  padding-bottom: 2rem;
+}
+
+.pdbtm-16 {
+  padding-bottom: 1rem;
+}
+
+.pdtop-120 {
+  padding-top: 7.5rem;
+}
+
+.pdbtm-60 {
+  padding-bottom: 3.75rem;
 }
