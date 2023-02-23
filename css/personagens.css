@@ -34,8 +34,6 @@
   box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.6);
   border-radius: 10px 10px 0px 0px;
   grid-column: 1/2;
-  width: 260px;
-  height: 280px;
 }
 
 .personagens-folha {
@@ -91,6 +89,7 @@
   }
   .personagens-icon img {
     margin-bottom: 0px;
+    min-width: 80px;
   }
   .personagens-content {
     grid-template-columns: 1fr;
@@ -109,8 +108,7 @@
   }
 
   .personagens-mobile {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    gap: 2rem;
+    display: flex;
+    gap: 1rem;
   }
 }
