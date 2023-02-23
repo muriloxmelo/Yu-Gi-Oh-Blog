@@ -1,9 +1,24 @@
 .footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .footer-bg {
-  background-color: #EE1133;
+  background: linear-gradient(180deg, #ee1133 0%, #cc0e2b 100%);
+
+}
+
+.footer-itens {
+ display: flex;
+ gap: 1rem;
+ place-content: start;
+}
+
+@media (max-width: 1000px) {
+  .footer-itens {
+    flex-direction: column;
+  }
 }

@@ -92,3 +92,23 @@ body {
 }
 
 
+@media (max-width: 1000px) {
+  .pdtop-80 {
+    padding-top: 3rem;
+  }
+  .pdbtm-120 {
+    padding-bottom: 5rem;
+  }
+  .pdtop-120 {
+    padding-top: 5rem;
+  }
+  .pdbtm-60 {
+    padding-bottom: 2.5rem;
+  }
+  .pdtop-80 {
+    padding-top: 3rem;
+  }
+  .pdbtm-60 {
+    padding-bottom: 3rem;
+  }
+}
