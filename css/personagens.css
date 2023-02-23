@@ -1,14 +1,14 @@
 .personagens-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 260px 1fr 1fr 1fr;
   background: linear-gradient(to right, #1b1d20 15%, #fef8d2 0);
   border-radius: 10px;
   padding: 2rem;
-  gap: 40px;
 }
 .personagens-icon {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .personagens-icon img {
@@ -40,8 +40,12 @@
 
 .personagens-folha {
   grid-column: 2/-1;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: 40px;
+  justify-content: space-between;
 }
 
 .deck {
@@ -78,5 +82,35 @@
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 1000px) {
+  .personagens-icon {
+    flex-direction: column;
+  }
+  .personagens-icon img {
+    margin-bottom: 0px;
+  }
+  .personagens-content {
+    grid-template-columns: 1fr;
+    background: linear-gradient(to bottom, #1b1d20 15%, #fef8d2 0);
+    gap: 1rem;
+  }
+  .personagens-folha {
+    grid-column: 1;
+    margin-left: 0px;
+  }
+  .alinhado {
+    margin-top: 0px;
+  }
+  .personagens-perfil {
+    place-self: center center;
+  }
+
+  .personagens-mobile {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 2rem;
   }
 }

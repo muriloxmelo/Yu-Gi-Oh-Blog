@@ -53,3 +53,17 @@
 .js .cartas-descricao div.ativo {
   display: block;
 }
+
+@media (max-width: 1000px) {
+  .boosters {
+    grid-template-columns: 1fr;
+  }
+  .cartas-lista {
+    background-color: blue;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .cartas-lista {
+    margin-bottom: 1rem;
+  }
+}
