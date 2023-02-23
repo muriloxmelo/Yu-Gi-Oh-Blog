@@ -14,6 +14,10 @@
   padding: 0;
 }
 
+button {
+  all: unset;
+}
+
 .btn {
   background: linear-gradient(180deg, #ee1133 0%, #cc0e2b 100%);
   padding: 1rem 2rem;

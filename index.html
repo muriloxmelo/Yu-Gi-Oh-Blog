@@ -20,34 +20,41 @@
 
 <body>
 
-  <header>
-    <div class="container header">
-      <a href="./"><svg class="svg-navegacao" xmlns="http://www.w3.org/2000/svg" width="172" height="65" fill="currentColor">
-          <path class="svg-hover" fill="currentColor" d="M9.15 25.6 0 .85l36.025 15.939v6.248l-7.832.64 3.298 25.473-1.732 15.7L19.29 24.88l-10.14.72ZM57.293 47.387l-6.595-33.401 18.63 8.17V26.4L59.19 23.918l1.566 14.098 3.793-1.602V33.37l-3.05 2.403-1.484-6.649 9.315-2.563v11.134l-12.036 9.692ZM75.594 52.834l-.33-28.676 17.477-13.296-7.584 17.622-6.018.24v4.646l6.183.88 6.842 10.494-13.355-7.129-.247 8.41-2.968 6.81ZM140.142 7.658l-5.029 21.226-3.05-7.53-7.667 2.404v9.932l6.925 5.287 3.627-5.847 6.513 24.03-19.703-17.863-.329-20.105 18.713-11.534Z" />
-          <path class="svg-hover" fill="currentColor" d="M139.729 16.148 171.55.85l-10.305 21.707-16.899-.24v4.646l14.344 1.682-4.617 10.653-9.48-4.886v6.809l6.76 4.245-3.38 19.384-7.996-21.066-.248-27.635Z" />
-          <path class="svg-hover" fill="currentColor" fill-rule="evenodd" d="m43.279 10.541-7.502 18.824-4.286 32.68 10.304-16.26V40.42l5.853-2.724 4.204 15.7 2.803-12.416L43.28 10.541Zm2.885 20.986-4.122 1.522 2.226-8.49 1.896 6.968ZM90.35 24.078l-5.358 7.85 16.982 15.059-.248-28.916-11.376 6.007Zm2.39 3.364-2.143 3.525 5.606 4.245.99-10.012-4.452 2.242ZM103.622 23.517l17.642-10.733-3.298 25.232-2.967-.881L139.4 58.28l-23.742-11.214-6.265-11.935-1.979-.72.495 11.453-3.957 8.33-.33-30.678Zm10.14 2.564-6.43-.32v4.565l6.43 2.002v-6.247Z" clip-rule="evenodd" />
-        </svg></a>
-      <nav class="f-x ct-1 f-bold">
-        <li><a href="#detonado">DETONADO</a></li>
-        <li><a href="#personagens">PERSONAGENS</a></li>
-        <li><a href="#boosters">LISTA DE BOOSTERS</a></li>
-      </nav>
-    </div>
-  </header>
-  <main class="introducao container">
-    <div class="introducao-p1">
-      <h1 class="f-xxl ct-1
+  <div class="header-main-bg">
+    <header id="header" class="container">
+        <a id="logo" href="./"><svg class="svg-navegacao" xmlns="http://www.w3.org/2000/svg" width="172" height="65" fill="currentColor">
+            <path class="svg-hover" fill="currentColor" d="M9.15 25.6 0 .85l36.025 15.939v6.248l-7.832.64 3.298 25.473-1.732 15.7L19.29 24.88l-10.14.72ZM57.293 47.387l-6.595-33.401 18.63 8.17V26.4L59.19 23.918l1.566 14.098 3.793-1.602V33.37l-3.05 2.403-1.484-6.649 9.315-2.563v11.134l-12.036 9.692ZM75.594 52.834l-.33-28.676 17.477-13.296-7.584 17.622-6.018.24v4.646l6.183.88 6.842 10.494-13.355-7.129-.247 8.41-2.968 6.81ZM140.142 7.658l-5.029 21.226-3.05-7.53-7.667 2.404v9.932l6.925 5.287 3.627-5.847 6.513 24.03-19.703-17.863-.329-20.105 18.713-11.534Z" />
+            <path class="svg-hover" fill="currentColor" d="M139.729 16.148 171.55.85l-10.305 21.707-16.899-.24v4.646l14.344 1.682-4.617 10.653-9.48-4.886v6.809l6.76 4.245-3.38 19.384-7.996-21.066-.248-27.635Z" />
+            <path class="svg-hover" fill="currentColor" fill-rule="evenodd" d="m43.279 10.541-7.502 18.824-4.286 32.68 10.304-16.26V40.42l5.853-2.724 4.204 15.7 2.803-12.416L43.28 10.541Zm2.885 20.986-4.122 1.522 2.226-8.49 1.896 6.968ZM90.35 24.078l-5.358 7.85 16.982 15.059-.248-28.916-11.376 6.007Zm2.39 3.364-2.143 3.525 5.606 4.245.99-10.012-4.452 2.242ZM103.622 23.517l17.642-10.733-3.298 25.232-2.967-.881L139.4 58.28l-23.742-11.214-6.265-11.935-1.979-.72.495 11.453-3.957 8.33-.33-30.678Zm10.14 2.564-6.43-.32v4.565l6.43 2.002v-6.247Z" clip-rule="evenodd" />
+          </svg></a>
+        <nav id="menu-nav">
+          <button id="btn-mobile">Menu<svg width="24" height="20" viewBox="0 0 24 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 2C0 0.895431 0.895431 0 2 0H22C23.1046 0 24 0.895431 24 2C24 3.10457 23.1046 4 22 4H2C0.89543 4 0 3.10457 0 2Z" fill="currentColor"/>
+            <path d="M0 10C0 8.89543 0.895431 8 2 8H22C23.1046 8 24 8.89543 24 10C24 11.1046 23.1046 12 22 12H2C0.89543 12 0 11.1046 0 10Z" fill="currentColor"/>
+            <path d="M0 18C0 16.8954 0.895431 16 2 16H22C23.1046 16 24 16.8954 24 18C24 19.1046 23.1046 20 22 20H2C0.89543 20 0 19.1046 0 18Z" fill="currentColor"/>
+            </svg></button>
+          <ul id="menu" class="f-x ct-1 f-bold">
+            <li><a href="#detonado">DETONADO</a></li>
+            <li><a href="#personagens">PERSONAGENS</a></li>
+            <li><a href="#boosters">LISTA DE BOOSTERS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main class="introducao container">
+      <div class="introducao-p1">
+        <h1 class="f-xxl ct-1
       ">Yu-Gi-Oh GX<br>Tag Force Evolution</br></h1>
-      <p class="f-x ct-1">Tudo que você precisa para extrair o máximo do jogo em um só lugar!</p>
-      <div class="botoes-div">
-        <a class="btn" href="#detonado">DETONADO</a>
-        <a class="btn" href="#boosters">LISTA DE BOOSTER</a>
+        <p class="f-x ct-1">Tudo que você precisa para extrair o máximo do jogo em um só lugar!</p>
+        <div class="botoes-div">
+          <a class="btn" href="#detonado">DETONADO</a>
+          <a class="btn" href="#boosters">LISTA DE BOOSTER</a>
+        </div>
       </div>
-    </div>
-    <div>
-      <div><img src="./imgs/personagem-intro.png" width="1120" height="1080" alt=""></div>
-    </div>
-  </main>
+      <div>
+        <div><img src="./imgs/personagem-intro.png" width="1120" height="1080" alt=""></div>
+      </div>
+    </main>
+  </div>
 
   <div class="sobre-bg">
     <h2 class="f-xxl ct-2 container pdtop-80 pdbtm-32">Sobre o jogo</h2>
@@ -147,7 +154,7 @@
             </div>
           </section>
           <section class="personagens-content">
-            <div class="personagens-perfil"><img src="./imgs/perso-tfsp/Syrus-TFSP.png" width="260" height="290" alt="Syrus Truesdale"></div>
+            <div class="personagens-perfil"><img src="./imgs/perso-tfsp/Syrus-TFSP.png" width="520" height="560" alt="Syrus Truesdale"></div>
             <div class="personagens-folha">
               <div>
                 <h2 class="f-perso-perfil ct-1">Syrus</h2>
