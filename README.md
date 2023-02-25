@@ -1,6 +1,6 @@
 <h1 align="center">Yu-Gi-Oh GX Tag Force Dicas</h1>
-#desktop
+# desktop
 <img  src="imgs/imgdesktop.png" width="100%">
 
-#mobile
+# mobile
 <img  src="imgs/imgmobile.png" width="50%">
